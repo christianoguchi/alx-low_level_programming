@@ -1,11 +1,24 @@
 #include "main.h"
+
 /**
- * _isdigit-checks for a digit (0 through 9)
- * @c: int to be checked
- * Return: 1 if c is a digit, 0 otherwise
- * 
+ * main - prints _putchar and a new line
+ * Return: Always 0
  */
- int _isdigit(int c)
+int main(void)
 {
-       return (c >= '0' && c <= '9');
-}       
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+	return (0);
+
+}
+
+
+
